@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Open Ventoy</string>
+    <string name="no_usb">No USB mass-storage device found. Connect OTG and grant permission.</string>
+    <string name="pick_bundled_release">Bundled Ventoy verified offline. Confirm target USB (erases disk) to install.</string>
+    <string name="browser_hint">USB browser goes here (SAF + open USB mass-storage library). No ads, no paywall.</string>
+    <string name="otg_steps">1. Connect USB via OTG.\n2. Grant USB permission.\n3. Install Ventoy (erases disk — confirm first).\n4. Copy ISOs to the Ventoy partition.</string>
+    <string name="copy_channel">USB copy</string>
+    <string name="copy_title">Copying files to USB…</string>
+</resources>

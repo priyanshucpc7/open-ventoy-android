@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<usb-device /> <!-- generic mass-storage filter; refined per device as needed -->

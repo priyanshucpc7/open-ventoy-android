@@ -1,0 +1,9 @@
+upstream: Ventoy <fill-version>
+source_url: https://github.com/ventoy/Ventoy/releases/tag/v<fill-version>
+license: GPL-3.0-only
+files:
+  boot.img sha256=<fill-hex>
+  core.img sha256=<fill-hex>
+  ventoy.disk.img sha256=<fill-hex>
+note: Place official Ventoy files here at build time. Do NOT copy boot/disk
+  images from the analyzed third-party APK. See docs/OFFLINE.md.
