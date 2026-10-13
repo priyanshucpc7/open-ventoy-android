@@ -22,6 +22,7 @@ jobs:
 
       - name: Install Android packages (no setup-android action)
         run: |
+          export PATH="$ANDROID_HOME/cmdline-tools/latest/bin:$PATH"
           yes | sdkmanager --licenses > /dev/null
           sdkmanager "platform-tools" "platforms;android-34" "build-tools;34.0.0"
 
